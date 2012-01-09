@@ -1,4 +1,16 @@
 Friendpics::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/learnmore"
+
+  get "pages/about"
+
+  resources :cohorts
+
+  resources :prospects
+
+  resources :visitors
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

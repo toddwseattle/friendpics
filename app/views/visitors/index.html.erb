@@ -1,0 +1,31 @@
+<h1>Listing visitors</h1>
+
+<table>
+  <tr>
+    <th>Visittime</th>
+    <th>Ip address</th>
+    <th>Browser</th>
+    <th>Prospect</th>
+    <th>Cohort</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @visitors.each do |visitor| %>
+  <tr>
+    <td><%= visitor.visittime %></td>
+    <td><%= visitor.ip_address %></td>
+    <td><%= visitor.browser %></td>
+    <td><%= visitor.prospect_id %></td>
+    <td><%= visitor.cohort_id %></td>
+    <td><%= link_to 'Show', visitor %></td>
+    <td><%= link_to 'Edit', edit_visitor_path(visitor) %></td>
+    <td><%= link_to 'Destroy', visitor, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Visitor', new_visitor_path %>

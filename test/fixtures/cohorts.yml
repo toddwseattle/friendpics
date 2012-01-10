@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  starttime: 2012-01-08 16:28:37
+  endtime: 2012-01-08 16:28:37
+
+two:
+  name: MyString
+  starttime: 2012-01-08 16:28:37
+  endtime: 2012-01-08 16:28:37

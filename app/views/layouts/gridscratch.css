@@ -1,0 +1,15 @@
+#headerbar { width: 950px; margin: 0 auto; } 
+#logo { float: left; margin-right: 10px; width: 270px; } 
+#tagline { float: left; margin-right: 10px; margin-right: 0; width: 670px; } 
+#positioningbox { width: 950px; margin: 0 auto; } 
+#positioningtext { float: left; margin-right: 10px; margin-right: 0; width: 950px; margin: 0; } 
+#pillars { width: 950px; margin: 0 auto; } 
+#firstpillar { float: left; margin-right: 10px; width: 310px; } 
+#secondpillar { float: left; margin-right: 10px; width: 310px; } 
+#thirdpillar { float: left; margin-right: 10px; margin-right: 0; width: 310px; } 
+#calltoaction { width: 950px; margin: 0 auto; } 
+#actionarea { float: left; margin-right: 10px; margin-right: 0; width: 950px; margin: 0; } 
+#footer { width: 950px; margin: 0 auto; } 
+#leftfooter { float: left; margin-right: 10px; width: 190px; } 
+#middlefooter { float: left; margin-right: 10px; width: 550px; } 
+#rightfooter { float: left; margin-right: 10px; margin-right: 0; width: 190px; } 

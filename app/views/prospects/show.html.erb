@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Fname:</b>
+  <%= @prospect.fname %>
+</p>
+
+<p>
+  <b>Lname:</b>
+  <%= @prospect.lname %>
+</p>
+
+<p>
+  <b>Piceditor:</b>
+  <%= @prospect.piceditor %>
+</p>
+
+<p>
+  <b>Picwebsite:</b>
+  <%= @prospect.picwebsite %>
+</p>
+
+<p>
+  <b>Betacontact:</b>
+  <%= @prospect.betacontact %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @prospect.email %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%= @prospect.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_prospect_path(@prospect) %> |
+<%= link_to 'Back', prospects_path %>

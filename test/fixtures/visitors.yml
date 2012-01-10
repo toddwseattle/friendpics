@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  visittime: 2012-01-08 16:23:50
+  ip_address: MyString
+  browser: MyString
+  prospect_id: 1
+  cohort_id: 1
+
+two:
+  visittime: 2012-01-08 16:23:50
+  ip_address: MyString
+  browser: MyString
+  prospect_id: 1
+  cohort_id: 1
